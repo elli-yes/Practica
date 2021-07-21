@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Practice</title>
+  </head>
+  <body>
+    <div class="nav"></div>
+    <div class="welcome">
+      <div class="container">
+        <span
+          >Hello i'am Egor, welcome to my educational practice page ...</span
+        >
+        <div class="down" ></div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <h2>About me</h2>
+        <p>
+          Hi again. my name is Egor and I am a 19 year old student of MTUCI. I
+          want to become a front-end developer. I use React js as the main
+          technology. There are not many works with this library in my
+          portfolio. But I'm sure it's just a matter of time. At the moment I
+          own HTML 5, CSS 3, JS ES 6, React JS, Git and have an idea of how the
+          server side of projects (Node Js, Express) works. If you are
+          interested below you will find contacts.
+        </p>
+        <h2>Contacts</h2>
+        <div>
+          <span class="tg">TG: @thxPD</span>
+          <span class="wa">WA: +7(919)878-56-31</span>
+          <span class="pn">PN: +7(919)878-56-31</span>
+          <span class="fb"
+            >FB: <a href="https://vk.com/feed/"> https://vk.com/feed/</a>
+          </span>
+          <span class="vk"
+            >VK: <a href="https://vk.com/feed/"> https://ru-ru.facebook.com/</a>
+          </span>
+          <span class="git"
+            >Git: <a href="https://github.com/">https://github.com/</a></span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="container">
+        <h1>Projects in progress</h1>
+        <div class="row">
+          <div class="column">
+            <span>Authorization system</span>
+            <img
+              src="/local/assets/pr2.png"
+              alt="logo"
+              onclick="image('/local/assets/pr2.png')"
+            />
+            <span class="opt">Small student work on data protection</span>
+            <span class="name"><a href="">Source</a></span>
+          </div>
+          <div class="column">
+            <span>Chat room</span>
+            <img
+              src="/local/assets/pr1.png"
+              alt="logo"
+              onclick="image('/local/assets/pr1.png')"
+            />
+            <span class="opt"
+              >Simple chat room for easy communication with other users</span
+            >
+            <span class="name"><a href="">Source</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <h1>Leave a comment</h1>
+        <input id="nick" type="text" placeholder="Nickname" />
+        <input id="text" type="text" placeholder="Comment"></textarea>
+        <div class="submit">Submit!</div>
+        <h1>Recent comments</h1>
+        <div id="comments">
+
+        </div>
+      </div>
+    </footer>
+    <script src="scroll.js"></script>
+    <!-- <script type="module" src="/local/server/comment.js"></script> -->
+  </body>
+</html>
